@@ -50,7 +50,7 @@
             <div class="divider"></div>
             
             <p>Join the next generation of technology innovators and leaders</p>
-            <a href="#" class="btn">Explore Our Programs</a>
+            <a href="#" class="btn">Book Your Spot Today!</a>
         </div>
     </section>
 
@@ -60,7 +60,7 @@
           <h2 class="section-title">Why School of Emerging Technologies?</h2>
           <div class="about-grid">
               <div class="about-image">
-                  <img src="assets/eduvos-8.jpg" alt="Students collaborating on technology project">
+                <img src="assets/eduvos-8.jpg" alt="Students collaborating on technology project" style="margin-top: 1.2em;">
                   <ul class="feature-icons">
                       <li><i class="fas fa-microchip"></i> State-of-the-art labs</li>
                       <li><i class="fas fa-network-wired"></i> Industry-grade equipment</li>
@@ -69,7 +69,7 @@
                   </ul>
               </div>
               <div class="about-content">
-                  <p class="intro-text">Founded in 2010, School of Emerging Technologies has established itself as a premier institution for cutting-edge technology education, with over 2,000 successful graduates now working at leading tech firms worldwide.</p>
+                  <p class="intro-text" style="margin-top: 11px;">Founded in 2010, School of Emerging Technologies has established itself as a premier institution for cutting-edge technology education, with over 2,000 successful graduates now working at leading tech firms worldwide.</p>
                   
                   <div class="stats-grid">
                       <div class="stat-item">
@@ -90,9 +90,9 @@
                       </div>
                   </div>
                   
-                  <p>Our unique approach combines rigorous academic training with hands-on experience in artificial intelligence, blockchain, quantum computing, and other frontier technologies. We've partnered with industry leaders like TechFuture and InnovateX to ensure our curriculum remains at the forefront of technological advancement.</p>
+                  <p style="margin-top: 62px;" >Our unique approach combines rigorous academic training with hands-on experience in artificial intelligence, blockchain, quantum computing, and other frontier technologies. We've partnered with industry leaders like TechFuture and InnovateX to ensure our curriculum remains at the forefront of technological advancement.</p>
                   
-                  <p>What sets us apart is our commitment to ethical technology development. Our students don't just learn how to build innovative solutions—they learn to build them responsibly, with consideration for societal impact and digital citizenship.</p>
+                  <p>What sets us apart is our commitment to ethical technology development. Our students don't just learn how to build innovative solutions—they learn to build them responsibly, with consideration for societal impact.</p>
               </div>
           </div>
       </div>
@@ -110,7 +110,7 @@
                   </div>
                   <div class="program-content">
                       <h3>Artificial Intelligence and Machine Learning</h3>
-                      <p>Master the algorithms powering the future. Our comprehensive program covers neural networks, deep learning, and AI ethics, preparing you to develop intelligent systems that transform industries.</p>
+                      <p>Master the algorithms powering the future. Our program covers neural networks, deep learning, and AI ethics, preparing you to develop intelligent systems that transform industries.</p>
                       <a href="#" class="btn">Learn More</a>
                   </div>
               </div>
@@ -121,7 +121,7 @@
                       <img src="assets/blockchain1.avif" alt="Blockchain and FinTech">
                   </div>
                   <div class="program-content">
-                      <h3>Blockchain and FinTech</h3>
+                      <h3>Blockchain & Financial Technology</h3>
                       <p>Dive into decentralized technologies that are reshaping finance. Learn smart contract development, cryptocurrency systems, and secure transaction protocols from industry experts.</p>
                       <a href="#" class="btn">Learn More</a>
                   </div>
@@ -142,17 +142,63 @@
       </div>
     </section>
 
+    <!-- News & Events Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title">News & Events</h2>
+            <div class="news-grid" id="newsContainer">
+                <!-- News articles will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-map-marker-alt"></i> 729 Tech Avenue, Innovation City</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@emergingtech.edu</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://submit-form.com/mayDKLLDv">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
     <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mainNav = document.getElementById('mainNav');
         
-        mobileMenuBtn.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
-            mobileMenuBtn.innerHTML = mainNav.classList.contains('active') 
-                ? '<i class="fas fa-times"></i>' 
-                : '<i class="fas fa-bars"></i>';
-        });
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
