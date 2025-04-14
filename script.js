@@ -19,19 +19,19 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "07 / 04",
             title: "Benefits Of Async/Await",
             excerpt: "Exploring how asynchronous functions are transforming modern programming",
-            image: "assets/code1.jpg"
+            image: "assets/news1.jpg"
         },
         {
             date: "07 / 17",
             title: "Key Considerations Of IPaaS",
             excerpt: "Essential factors for successful cloud integration platform implementation",
-            image: "assets/cloud1.jpg"
+            image: "assets/news2.jpeg"
         },
         {
             date: "07 / 22",
             title: "Never Stop Optimizing Your Code",
             excerpt: "Continuous improvement practices for maintaining high-performance applications",
-            image: "assets/optimize1.jpg"
+            image: "assets/pic.jpg"
         }
     ];
 

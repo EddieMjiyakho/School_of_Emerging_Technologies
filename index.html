@@ -25,10 +25,10 @@
             
             <nav id="mainNav">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Programs Offered</a></li>
-                    <li><a href="#">News & Events</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs Offered</a></li>
+                    <li><a href="#news">News & Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#" class="btn">Apply Now</a></li>
                 </ul>
             </nav>
@@ -55,9 +55,9 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="about-section">
+    <section id="about">
       <div class="container">
-          <h2 class="section-title">Why School of Emerging Technologies?</h2>
+          <h2 class="section-title" style="margin-top: 3rem;">Why School of Emerging Technologies?</h2>
           <div class="about-grid">
               <div class="about-image">
                 <img src="assets/eduvos-8.jpg" alt="Students collaborating on technology project" style="margin-top: 1.2em;">
@@ -99,9 +99,9 @@
     </section>
 
     <!-- Programs Offered Section -->
-    <section class="programs-section">
+    <section id="programs">
       <div class="container">
-          <h2 class="section-title">Programs Offered</h2>
+          <h2 class="section-title" style="margin-top: 3rem;">Programs Offered</h2>
           <div class="programs-grid">
               <!-- Program 1 -->
               <div class="program-card">
@@ -143,9 +143,9 @@
     </section>
 
     <!-- News & Events Section -->
-    <section class="news-section">
+    <section id="news">
         <div class="container">
-            <h2 class="section-title">News & Events</h2>
+            <h2 class="section-title" style="margin-top: 3rem;">News & Events</h2>
             <div class="news-grid" id="newsContainer">
                 <!-- News articles will be dynamically inserted here -->
             </div>
@@ -153,9 +153,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section id="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title" style="margin-top: 3rem;">Get In Touch</h2>
             <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
@@ -201,4 +201,49 @@
     </script>
     <script src="script.js"></script>
 </body>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo">
+                    <img src="https://i.ibb.co/HL0VY0mV/school-logo.png" alt="School Logo">
+                    <div class="logo-text">School of <span>Emerging Tech</span></div>
+                </a>
+                <p>Pioneering education in next-generation technologies since 2010.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#news">News & Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 729 Tech Avenue, Innovation City</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@emergingtech.edu</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 School of Emerging Technologies. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
